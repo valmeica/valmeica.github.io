@@ -67,6 +67,8 @@ body {
 	width: 450px;
 	height: 250px;
 	z-index: 200;
+	border: 0px;
+	border-radius: 50px;
 }
 
 .img {
