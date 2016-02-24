@@ -1,0 +1,93 @@
+@charset "utf-8";
+@import url("monsieurladoulaise_regular/stylesheet.css");
+
+body {
+	font-family: Verdana, Geneva, sans-serif;
+	background-color: #96C;
+	background-image: url(../images/bg.jpg);
+}
+.content {
+	position: absolute;
+	left: 300px;
+	top: 384px;
+	width: 903px;
+	height: 1117px;
+	z-index: 1;
+	font-style: italic;
+	text-align: left;
+	font-size: 24px;
+	color: #FFF;
+	background-color: rgba(63,69,143,0.8);
+	border-radius: 30px 0px 30px 0px;
+	font-family: Verdana, Geneva, sans-serif;
+	padding: 5px;
+}
+
+
+
+#nav {
+	position: absolute;
+	left: 58px;
+	top: 307px;
+	width: 874px;
+	height: 35px;
+	z-index: 2;
+	font-family: "Courier New", Courier, monospace;
+	font-size: 18px;
+	font-style: oblique;
+	color: #FFF;
+	text-align: center;
+	border-radius: 0px 20px 0px 20px;
+	background-color: rgba(67,70,138,1);
+	float: none;
+	padding-left: 11px;
+	padding-right: 10px;
+}
+.logo {
+	position: absolute;
+	left: 47px;
+	top: 117px;
+	width: 1383px;
+	height: 114px;
+	z-index: 3;
+	font-family: "monsieurladoulaise regular";
+	background-color: rgba(201,93,129,0.6);
+	font-size: xx-large;
+	color: rgba(255,255,255,1);
+	border-radius: 20px;
+	padding-top: 5px;
+	padding-right: 5px;
+	padding-bottom: 10px;
+	padding-left: 10px;
+}
+#logoImg {
+		border-radius: 50px;
+	position: absolute;
+	left: 923px;
+	top: 68px;
+	width: 450px;
+	height: 250px;
+	z-index: 200;
+	border: 0px;
+
+}
+
+.img {
+    border: 0px;
+    border-radius: 25px;
+}
+@font-face {
+	font-family: 'monsieurladoulaise regular';
+	src: url('../monsieurladoulaise_regular/monsieurladoulaise-regular-webfont.eot');
+	src: url('../monsieurladoulaise_regular/monsieurladoulaise-regular-webfont.eot?#iefix') format('embedded-opentype'),
+url('../monsieurladoulaise_regular/monsieurladoulaise-regular-webfont.woff') format('woff'),
+url('../monsieurladoulaise_regular/monsieurladoulaise-regular-webfont.ttf') format('truetype'),
+url('../monsieurladoulaise_regular/monsieurladoulaise-regular-webfont.svg') format('svg');
+}
+.content p {
+	font-size: 16px;
+	font-weight: bold;
+}
+.txt {
+	font-family: Verdana, Geneva, sans-serif;
+}

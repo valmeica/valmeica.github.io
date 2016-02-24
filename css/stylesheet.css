@@ -3,55 +3,90 @@
 
 body {
 	font-family: Verdana, Geneva, sans-serif;
-	background-color: #96C;
-	background-image: url(../images/bg.jpg);
+	background-color: #030303;
+	background-image: url(../images/bg4.jpg);
+	background-repeat: no-repeat;
+	background-size: 100%;
 }
 .content {
 	position: absolute;
-	left: 300px;
-	top: 384px;
-	width: 903px;
-	height: 1117px;
+	left: 125px;
+	top: 307px;
+	width: 890px;
+	height: 643px;
 	z-index: 1;
 	font-style: italic;
-	text-align: left;
+	text-align: center;
 	font-size: 24px;
 	color: #FFF;
-	background-color: rgba(63,69,143,0.8);
+	background-color: rgba(20,47,29,0.50);
 	border-radius: 30px 0px 30px 0px;
 	font-family: Verdana, Geneva, sans-serif;
 	padding: 5px;
 }
 
+.block {
+	position: absolute;
+	left: 3px;
+	top: 793px;
+	width: 868px;
+	height: 397px;
+	z-index: 1;
+	font-style: italic;
+	text-align: center;
+	font-size: 24px;
+	color: #FFF;
+	background-color: rgba(20,47,29,0.50);
+	border-radius: 30px 0px 30px 0px;
+	font-family: Verdana, Geneva, sans-serif;
+	padding: 5px;
+
 }
+	
+.resume {
+	position: absolute;
+	left: 125px;
+	top: 307px;
+	width: 992px;
+	height: 2096px;
+	z-index: 1;
+	font-style: italic;
+	text-align: center;
+	font-size: 24px;
+	color: #FFF;
+	background-color: rgba(20,47,29,0.8);
+	border-radius: 30px 0px 30px 0px;
+	font-family: Verdana, Geneva, sans-serif;
+	padding: 5px;
+	}	
 
 #nav {
 	position: absolute;
-	left: 58px;
-	top: 307px;
-	width: 874px;
+	left: 190px;
+	top: 228px;
+	width: 737px;
 	height: 35px;
-	z-index: 2;
+	z-index: 5;
 	font-family: "Courier New", Courier, monospace;
 	font-size: 18px;
 	font-style: oblique;
 	color: #FFF;
 	text-align: center;
 	border-radius: 0px 20px 0px 20px;
-	background-color: rgba(67,70,138,1);
+	background-color: rgba(60,81,43,0.50);
 	float: none;
 	padding-left: 11px;
 	padding-right: 10px;
 }
 .logo {
 	position: absolute;
-	left: 47px;
-	top: 117px;
-	width: 1383px;
-	height: 114px;
+	left: 23px;
+	top: 58px;
+	width: 1249px;
+	height: 109px;
 	z-index: 3;
-	font-family: "monsieurladoulaise regular";
-	background-color: rgba(201,93,129,0.6);
+	font-family: "zero hour";
+	background-color: rgba(60,73,64,0.60);
 	font-size: xx-large;
 	color: rgba(255,255,255,1);
 	border-radius: 20px;
@@ -61,15 +96,15 @@ body {
 	padding-left: 10px;
 }
 #logoImg {
-		border-radius: 50px;
+	border-radius: 50px;
 	position: absolute;
-	left: 923px;
-	top: 68px;
-	width: 450px;
-	height: 250px;
+	left: 1003px;
+	top: -1px;
+	width: 229px;
+	height: 213px;
 	z-index: 200;
 	border: 0px;
-
+	border-radius: 30px 0px 30px 0px;
 }
 
 .img {
