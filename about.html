@@ -8,6 +8,13 @@
 <link href="css/stylesheet.css" rel="stylesheet" type="text/css" />
 <link href="SpryAssets/SpryMenuBarHorizontal.css" rel="stylesheet" type="text/css" />
 <style type="text/css">
+
+	body{
+				background:#333 url(images/bg2.jpg) repeat top left;
+				font-family:Arial;
+			}
+
+
 #valPic {
 	position: absolute;
 	left: 969px;
@@ -19,16 +26,16 @@
 
 .content {
 	position: absolute;
-	left: 50px;
-	top: 384px;
-	width: 903px;
-	height: 777px;
+	left: 125px;
+	top: 307px;
+	width: 870px;
+	height: 821px;
 	z-index: 1;
 	font-style: italic;
 	text-align: center;
 	font-size: 24px;
 	color: #FFF;
-	background-color: rgba(63,69,143,0.8);
+	background-color: rgba(20,47,29,0.50);
 	border-radius: 30px 0px 30px 0px;
 	font-family: Verdana, Geneva, sans-serif;
 	padding: 5px;
@@ -38,6 +45,7 @@
 </head>
 
 <body>
+<div id="logoImg"><img src="images/i.jpg" width="210" height="187" alt=""/></div>
 <div class="content">
   <p>Welcome to the electronic portfolio of</p>
   <h3><strong>Valentin Meica</strong></h3>
@@ -63,19 +71,18 @@
 </div>
 <div id="nav">
   <ul id="MenuBar1" class="MenuBarHorizontal">
-       <li><a href="index.html">Home</a>    </li>
+       <li><a href="home.html">Home</a>    </li>
     <li><a href="projects.html">Projects</a></li>
     
     <li><a href="resume.html">Resume</a></li>
     <li><a href="hobbies.html">Hobbies</a></li>
     <li><a href="contact.html">Contact</a></li>
+    <li><a href="blogpost.html">Blog</a></li>
   </ul>
 </div>
 <div class="logo">
-  <h1>Valentin Meica. </h1>
+  <h1> Welcome! </h1>
 </div>
-<div id="logoImg" ><img src="images/welcome.png" width="495" height="223" alt="welcome" /></div>
-<div id="valPic"><img class="img" src="images/val.jpg" width="473" height="678" alt="val" /></div>
 <div id="apDiv1"></div>
 <script type="text/javascript">
 var MenuBar1 = new Spry.Widget.MenuBar("MenuBar1", {imgDown:"SpryAssets/SpryMenuBarDownHover.gif", imgRight:"SpryAssets/SpryMenuBarRightHover.gif"});
