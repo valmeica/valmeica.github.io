@@ -11,6 +11,7 @@
 			body{
 				background:#333 url(images/bg2.jpg) repeat top left;
 				font-family:Arial;
+				color:#0B75AF;
 			}
 			span.reference{
 				position:fixed;
@@ -33,17 +34,55 @@
 			}
 			h1.title{
 				text-indent:-9000px;
-				background:transparent url(title.png) no-repeat top left;
-				width:633px;
-				height:69px;
+				background:transparent url(images/logo.jpg) no-repeat top left;
+				width:800px;
+				height:300px;
 			}
+			
+			.radio{
+		           
+				    background:transparent  top left;
+				    width:633px;
+				    height:150px;
+				    margin-top:100px;
+				    margin-left: 50px;
+			}
+			.comm{
+				   background:transparent  top left;
+				    width:633px;
+				    height:150px;
+				    margin-top:150px;
+				    margin-left:1500px;
+			}
+			
+				.vid{
+				   background:transparent  top left;
+				    width:1200px;
+				    height:300px;
+				    margin-top:25px;
+				    margin-left:900px;
+			}
+			
 		</style>
     </head>
 
     <body>
+    	
+    <video width="765" height="550" controls>
+         <source src="video/tlou.mp4" type="video/mp4">
+         <source src="video/tlou.mp4" type="video/ogg">
+         Your browser does not support the video tag.
+    </video>
+    <audio controls>
+         <source src="audio/lindsey.mp3" type="audio/ogg">
+         <source src="audio/lindsey.mp3" type="audio/mpeg">
+         Your browser does not support the audio element.
+   </audio>
 		<div class="content">
-			<h1 class="title">Slide Down Box Menu with jQuery and CSS3</h1>
+			<!--<h1 class="title">Title</h1>-->
+			
 			<ul id="sdt_menu" class="sdt_menu">
+				
 				<li>
 					<a href="#">
 						<img src="images/self.jpg" alt=""/>
@@ -54,7 +93,7 @@
 						</span>
 					</a>
 					<div class="sdt_box">
-							<a href="index.html">About</a>
+							<a href="about.html">About</a>
 							<a href="hobbies.html">Hobbies</a>
 							<a href="blogpost.html">Places to Visit</a>
 					</div>
@@ -88,13 +127,16 @@
 				</li>
 				<li>
 					<a href="#">
-						<img src="images/self.jpg" alt=""/>
+						<img src="photo/IMG_05.JPG" alt=""/>
 						<span class="sdt_active"></span>
 						<span class="sdt_wrap">
 							<span class="sdt_link">Photos</span>
 							<span class="sdt_descr">I like to photograph</span>
 						</span>
 					</a>
+					 	<div class="sdt_box">
+							<a href="photo.html">My Photography</a>
+					</div>
 				</li>
 				<li>
 					<a href="#">
@@ -114,23 +156,44 @@
 						<img src="images/code2.jpg" alt=""/>
 						<span class="sdt_active"></span>
 						<span class="sdt_wrap">
-							<span class="sdt_link">Projects</span>
+							<span class="sdt_link">Fun Facts</span>
 							<span class="sdt_descr">I like to code</span>
 						</span>
 					</a>
 					<div class="sdt_box">
-						<a href="#">Job Board Website</a>
-						<a href="#">Shopping Cart</a>
-						<a href="#">Interactive Maps</a>
+						<a href="#"></a>
+						<a href="#"></a>
+						<a href="#"></a>
 					</div>
 				</li>
 			</ul>
 		</div>
+		
+
+
+<div class="radio">
+	
+	<h5>How Do you like my website.</h5>
+  <form>
+    <input type="radio" name="gender" value="like"> Like<br>
+    <input type="radio" name="gender" value="don't care"> Don't Care<br>
+    <input type="radio" name="gender" value="dislike"> Dislike
+  </form>
+</div>
+
+<div class="comm">
+<form action="demo_form.asp">
+Comment: <input type="text" name="comment" value="Leave a comment"><br>
+
+<input type="submit" value="Submit">
+</form>
+</div>
+
 
         <div>
             <span class="reference">
-                <a href="http://tympanus.net/codrops/2010/07/16/slide-down-box-menu/">back to the Codrops Tutorial</a>
-				<a href="http://www.flickr.com/photos/arcticpuppy/sets/72157622090180990/">Images by tibchris</a>
+                <a href="#">Created as part of a college project.</a>
+				<a href="www.valmeica.github.io">valmeica.github.io</a>
             </span>
 		</div>
 
